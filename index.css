@@ -1,0 +1,106 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+}
+
+.fade-in.visible {
+    opacity: 1; 
+    animation: fadeIn 4s ease-in-out; 
+}
+@keyframes shake-up-down {
+    0%, 100% { transform: translateY(0); }
+    25% { transform: translateY(-2px); }
+    50% { transform: translateY(2px); }
+    75% { transform: translateY(-2px); }
+  }
+  
+  .shake-up-down {
+    animation: shake-up-down 3s infinite; 
+  }
+ /* --------------------------------------------------  */
+/* Header */
+.logo_img{
+    height: 35px;
+    width: 35px;
+}
+/* ------------------------------------------------ */
+/* Content */
+/* Section = Home_1 */
+.banner{
+    height: 768px;
+}
+.bg-img{
+    background-image: url('img/banner_img.webp'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+}
+.bi-book{
+    height: 30px;
+    width: 30px;
+    fill: currentColor;
+} 
+/* -------------------------------------------- */
+/* Section = Home_2 */
+.image-container {
+    position: relative; 
+    display: inline-block;
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+  }
+  .image-container:hover .overlay {
+    opacity: 1; 
+  }
+.caption{
+    text-align: justify;
+} 
+/* ----------------------------------------------------- */
+/* Section = Home_3 */
+.custom-padding{
+    padding: 10px;
+}
+.service{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+} 
+/* ------------------------------------------------------- */
+/* Footer */
+.bi{
+    height: 24px;
+    width: 24px;
+    fill: currentColor;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
